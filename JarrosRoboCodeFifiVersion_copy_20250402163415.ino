@@ -49,9 +49,9 @@ String motorSpeedStr;
 double measurement;
 double output;
 double setpoint = 15;
-double Kp = 5;
-double Ki = 10;
-double Kd = 1;
+double Kp = 5;                //The gain for the Proportional part of the PID
+double Ki = 10;               //The gain for the Integral part of the PID
+double Kd = 1;                //The gain for the Derivative part of the PID
 int newOutput;
 
 int motorSpeed;               //speed integer for the motors
